@@ -74,7 +74,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://fvit718/NextJS-Portfolio.git
+git clone https://github.com/vit718/NextJS-Portfolio.git
 cd NextJS-Portfolio
 ```
 
