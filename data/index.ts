@@ -8,8 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "My tech stack",
+    description: "I constantly try to improve",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "I prioritize client collaboration, fostering open communication ",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently working as a freelancer on Upwork.com",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +72,56 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "React Landing Page",
+    des: "This is a React.js/Next.js based landing page plug-n-play template, ideal for startups/companies/service providers wanting to showcase their vision in a single page sleek and modern landing page.",
+    img: "/project1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://github.com/vit718/React-Landing-Page-2021",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "MERN-ECommerce-App",
+    des: "This is a Full E-commerce Web App using MERN Stack (MongoDB, Express, React, Node.js) and Redux for state management.",
+    img: "/project2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/stream.svg", "/c.svg"],
+    link: "https://github.com/vit718/mern-ecommerce-webapp",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "GenZAI - Unleash Your Creativity with AI Image Generation",
+    des: "Turn text into captivating visuals with GenZAI, a full-stack web app powered by OpenAI DALL-E. Experience seamless text-to-image generation with the powerful MERN stack (Node.js, Express.js, MongoDB, React.js) and a sleek Tailwind CSS interface. Securely store your creations with Cloudinary",
+    img: "/project3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://github.com/vit718/Fullstack-MERN-generative-AI-Project-GenzAI-",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "ChatGPT-Web",
+    des: "ChatGPT-web is a simple one-page web interface to the OpenAI ChatGPT API. To use it, you need to register for an OpenAI API key first. All messages are stored in your browser's local storage, so everything is private. You can also close the browser tab and come back later to continue the conversation.",
+    img: "/project4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://niek.github.io/chatgpt-web",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Exceptional Work on React Project! I am extremely pleased with the work he did on my web development task using React. His attention to detail and ability to translate my ideas into a functional and visually appealing application exceeded my exapectations. He was responsive to my feedback throughout the process, and I appreciate his commitment to delivering a high-quality product. I look forward to working with him again in the future!",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "React Landing Page",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Outstanding Communication and Technical Skills! Thank you for his excellent work on the React project! His technical skills are impressive, and I was particularly grateful for your proactive communication and timely updates. You took the time to ensure I was on board with each step of the project, which made the entire process smooth and stress-free. I would highly recommend you to others looking for a skilled developer!",
+    name: "Michael Wallson",
+    title: "MERN-ECommerce-App",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Fantastic Collaboration and Result! I am thrilled with the results of my web development tasks! His expertise in React shone through, and the final product is not only functional but also intuitive for users. I truly appreciate how well he incorporated my feedback and suggestions, making adjustments seamlessly to achieve the desired outcome. His professionalism and dedication to quality work were evident throughout the project. Thank him for his hard work!",
+    name: "John William",
+    title: "ChatGPT-Web",
   },
 ];
 
@@ -173,31 +161,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Web Developer - Apify",
+    desc: "Developed responsive and dynamic front-end interfaces using React.js and Next.js, improving user experience and site performance. Worked closely with data scientists to integrate AI models into web applications, providing real-time insights and predictions. Implemented server-side logic with Node.js and Express.js, ensuring robust and efficient back-end operations. Managed database operations using MongoDB and SQL, optimizing queries for better performance and scalability.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Full Stack Developer - Freelancer",
+    desc: "Website project development from scratch and delivery to production. Implementation of intranet networks, integration with payment systems. Maintenance and monitoring of the implemented systems.Reengineering and improvement of customer's legacy systems. Technologies: ASP.NET, C#, XHTML, CSS, JavaScript, JQuery, Microsoft SQL Server",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -206,12 +180,12 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
+  // {
+  //   id: 3,
+  //   img: "/link.svg",
+  // },
 ];
