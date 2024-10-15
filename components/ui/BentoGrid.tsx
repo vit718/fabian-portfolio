@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
+import { IoEnter } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
@@ -66,9 +66,10 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
+    window.open(
+      "https://www.upwork.com/freelancers/~01665137ead7ca5cba",
+      "_blank"
+    );
   };
 
   return (
@@ -186,7 +187,7 @@ export const BentoGridItem = ({
 
               <MagicButton
                 title={copied ? "Hire me on upwork" : "Hire me on upwork"}
-                icon={<IoCopyOutline />}
+                icon={<IoEnter />}
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"

@@ -4,6 +4,13 @@ import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
 const Footer = () => {
+  const handleCopy = () => {
+    window.open(
+      "https://www.upwork.com/freelancers/~01665137ead7ca5cba",
+      "_blank"
+    );
+  };
+
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
@@ -29,6 +36,7 @@ const Footer = () => {
           title="Hire me"
           icon={<FaLocationArrow />}
           position="right"
+          handleClick={handleCopy}
         />
         {/* </a> */}
       </div>

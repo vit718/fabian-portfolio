@@ -12,7 +12,7 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="flex flex-wrap items-center justify-between mt-10">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
@@ -49,7 +49,7 @@ const RecentProjects = () => {
 
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
+                  {/* {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
@@ -59,11 +59,22 @@ const RecentProjects = () => {
                     >
                       <img src={icon} alt="icon5" className="p-2" />
                     </div>
-                  ))}
+                  ))} */}
+                  <img src="/git.svg" alt="icons" width="20" height="20" />
+                  <a
+                    href={item.gitlink}
+                    target="_blank"
+                    className="flex lg:text-xl md:text-xs text-sm text-green-200 px-4"
+                  >
+                    Github
+                  </a>
                 </div>
-
                 <div className="flex justify-center items-center">
-                  <a href={item.link} className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                  >
                     Check Live Site
                   </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
