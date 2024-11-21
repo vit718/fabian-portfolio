@@ -1,8 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Experience", link: "#experience" },
+  { name: "Approach", link: "#approach" },
 ];
 
 export const gridItems = [
@@ -115,7 +115,7 @@ export const projects = [
     id: 6,
     title: "DeviasKit - React Dashboard",
     des: "React Dashboard made with Material UI’s components. Our pro template contains features like TypeScript version, authentication system with Firebase and Auth0 plus many other",
-    img: "/project6.png",
+    img: "/zg.png",
     gitlink: "https://github.com/vit718/material-react-dashboard.git",
     link: "https://material-kit-react.devias.io/dashboard",
   },
