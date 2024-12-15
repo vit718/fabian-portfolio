@@ -196,7 +196,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/vit718/NextJS-Portfolio",
+    url: "https://github.com/fabian8221",
   },
   // {
   //   id: 2,
