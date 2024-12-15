@@ -49,27 +49,6 @@ const RecentProjects = () => {
                 </p>
 
                 <div className="flex items-center justify-between mt-7 mb-3">
-                  <div className="flex items-center">
-                    {/* {item.iconLists.map((icon, index) => (
-                    <div
-                      key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
-                    >
-                      <img src={icon} alt="icon5" className="p-2" />
-                    </div>
-                  ))} */}
-                    <img src="/git.svg" alt="icons" width="20" height="20" />
-                    <a
-                      href={item.gitlink}
-                      target="_blank"
-                      className="flex lg:text-xl md:text-xs text-sm text-green-200 px-4"
-                    >
-                      Github
-                    </a>
-                  </div>
                   <div className="flex justify-center items-center">
                     <a
                       href={item.link}

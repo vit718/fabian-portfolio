@@ -53,12 +53,12 @@ const Hero = () => {
              *  change md:text-6xl, add more responsive code
              */}
             <TextGenerateEffect
-              words="I'm Vit, a Full Stack AI developer"
+              words="I'm Fabian, a Full Stack AI developer"
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
             />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Javascript | React | Vue.js | Node.js | Python | OpenAI | RagAI |
+              Javascript | React | Next.js | Node.js | Python | OpenAI | RagAI |
               GenAI
             </p>
 

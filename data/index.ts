@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working as a freelancer on Upwork.com",
+    title: "Fully open to new position.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -115,7 +115,7 @@ export const projects = [
     id: 6,
     title: "DeviasKit - React Dashboard",
     des: "React Dashboard made with Material UI’s components. Our pro template contains features like TypeScript version, authentication system with Firebase and Auth0 plus many other",
-    img: "/zg.png",
+    img: "/project6.png",
     gitlink: "https://github.com/vit718/material-react-dashboard.git",
     link: "https://material-kit-react.devias.io/dashboard",
   },
@@ -178,14 +178,14 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Web Developer - Apify",
+    title: "Web Developer - Eventbrite",
     desc: "Developed responsive and dynamic front-end interfaces using React.js and Next.js, improving user experience and site performance. Worked closely with data scientists to integrate AI models into web applications, providing real-time insights and predictions. Implemented server-side logic with Node.js and Express.js, ensuring robust and efficient back-end operations. Managed database operations using MongoDB and SQL, optimizing queries for better performance and scalability.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Full Stack Developer - Freelancer",
+    title: "Full Stack Developer - Rappi",
     desc: "Website project development from scratch and delivery to production. Implementation of intranet networks, integration with payment systems. Maintenance and monitoring of the implemented systems.Reengineering and improvement of customer's legacy systems. Technologies: ASP.NET, C#, XHTML, CSS, JavaScript, JQuery, Microsoft SQL Server",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -196,13 +196,15 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/vit718/NextJS-Portfolio",
   },
   // {
   //   id: 2,
   //   img: "/twit.svg",
   // },
-  // {
-  //   id: 3,
-  //   img: "/link.svg",
-  // },
+  {
+    id: 2,
+    img: "/link.svg",
+    url: "https://www.linkedin.com/in/fabian-paulino-94314b87",
+  },
 ];

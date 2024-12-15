@@ -67,7 +67,7 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     window.open(
-      "https://www.upwork.com/freelancers/~01665137ead7ca5cba",
+      "https://www.linkedin.com/in/fabian-paulino-94314b87",
       "_blank"
     );
   };
@@ -186,7 +186,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Hire me on upwork" : "Hire me on upwork"}
+                title={"My linkedin Profile"}
                 icon={<IoEnter />}
                 position="left"
                 handleClick={handleCopy}
